@@ -1,0 +1,42 @@
+@startuml
+package "Newtonsoft.Json.13.0 1" as Newtonsoft.Json.13.0 {
+    note right of Newtonsoft.Json.13.0 : Version: 1
+    note right of Newtonsoft.Json.13.0 : Authors: James Newton-King
+    Newtonsoft.Json.13.0 --> System.Runtime.Serialization.Formatters.4.3
+    Newtonsoft.Json.13.0 --> System.ComponentModel.TypeConverter.4.3
+    Newtonsoft.Json.13.0 --> System.Runtime.Serialization.Primitives.4.3
+    Newtonsoft.Json.13.0 --> Microsoft.CSharp.4.3
+    Newtonsoft.Json.13.0 --> System.Xml.XmlDocument.4.3
+    Newtonsoft.Json.13.0 --> NETStandard.Library.1.6
+}
+package "Microsoft.CSharp.4.3 0" as Microsoft.CSharp.4.3 {
+    note right of Microsoft.CSharp.4.3 : Version: 0
+    note right of Microsoft.CSharp.4.3 : Authors: unknown
+}
+package "NETStandard.Library.1.6 1" as NETStandard.Library.1.6 {
+    note right of NETStandard.Library.1.6 : Version: 1
+    note right of NETStandard.Library.1.6 : Authors: unknown
+}
+package "System.ComponentModel.TypeConverter.4.3 0" as System.ComponentModel.TypeConverter.4.3 {
+    note right of System.ComponentModel.TypeConverter.4.3 : Version: 0
+    note right of System.ComponentModel.TypeConverter.4.3 : Authors: unknown
+}
+package "System.Runtime.Serialization.Primitives.4.3 0" as System.Runtime.Serialization.Primitives.4.3 {
+    note right of System.Runtime.Serialization.Primitives.4.3 : Version: 0
+    note right of System.Runtime.Serialization.Primitives.4.3 : Authors: unknown
+}
+package "System.Runtime.Serialization.Formatters.4.3 0" as System.Runtime.Serialization.Formatters.4.3 {
+    note right of System.Runtime.Serialization.Formatters.4.3 : Version: 0
+    note right of System.Runtime.Serialization.Formatters.4.3 : Authors: unknown
+}
+package "System.Xml.XmlDocument.4.3 0" as System.Xml.XmlDocument.4.3 {
+    note right of System.Xml.XmlDocument.4.3 : Version: 0
+    note right of System.Xml.XmlDocument.4.3 : Authors: unknown
+}
+package "Newtonsoft.Json.Bson.1.0 3" as Newtonsoft.Json.Bson.1.0 {
+    note right of Newtonsoft.Json.Bson.1.0 : Version: 3
+    note right of Newtonsoft.Json.Bson.1.0 : Authors: James Newton-King
+    Newtonsoft.Json.Bson.1.0 --> Newtonsoft.Json.13.0
+    Newtonsoft.Json.Bson.1.0 --> NETStandard.Library.1.6
+}
+@enduml

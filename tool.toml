@@ -1,0 +1,9 @@
+[visualization]
+plantuml_path = "C://Users//Anastasia//Downloads//plantuml-1.2024.8.jar"
+
+[package]
+name = "Newtonsoft.Json.Bson"
+version = "1.0.3"
+
+[output]
+graph_path = "C:/Users/Anastasia/PycharmProjects/konfig2/graph_dependencies.puml"
